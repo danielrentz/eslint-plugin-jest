@@ -40,8 +40,6 @@ export default createRule({
   meta: {
     docs: {
       description: 'Disallow conditional logic',
-      category: 'Best Practices',
-      recommended: false,
     },
     messages: {
       conditionalInTest: 'Test should not contain {{ condition }} statements',
